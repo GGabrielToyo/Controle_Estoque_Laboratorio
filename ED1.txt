@@ -1,0 +1,60 @@
+Structs:
+
+Substancia: nome, tipo
+
+Frasco: substancia: a, vol
+
+Prateleira: Frasco vetFrascos[10], numeroFrascos
+
+Armario: Prateleira vetPrat[5]
+
+Laboratório: Prateleira vetArmario[5]
+
+
+-------------------------------
+Substancia: a
+a.nome, a.tipo (como acionar o nome e o tipo de substancia)
+
+Frasco: f -> variavel do tipo Frasco
+f.a.tipo, f.a.nome, f.vol
+
+Prateleira: p // variavel do tipo prateleira
+
+//acionando o item dentro de prateleira
+p.vetFrascos[i]
+
+//acionando item dentro de prateleira->frascos
+p.vetFrascos[i].vol
+
+//acionando item dentro de prateleira->frascos->substancia
+p.vetFrascos[i].a.nome
+p.vetFrascos[i].a.tipo
+
+//armario: ar
+ar.vetPrat[i].numFrasco
+ar.vetPrat[i].vetFrascos[i].vol
+ar.vetPrat[i].vetFrascos[i].a.nome
+ar.vetPrat[i].vetFrascos[i].a.tipo
+---------------------------------------
+vetFrascos[0].a.nome = "Gabriel";
+vetFrascos[1].a.nome = "Leandro";
+-----------------------------------------
+ar.vetPrat[0].vetFrascos[0].a.tipo = 1
+	     .vetFrascos[1].a.tipo = 2
+	     ...
+ar.vetPrat[0].vetFrascos[10].a.tipo = 3
+
+
+ar.vetPrat[1].vetFrascos[0].a.tipo = 1
+	     .vetFrascos[1].a.tipo = 2
+	     ...
+ar.vetPrat[1].vetFrascos[10].a.tipo = 3
+
+-----------------------------------------
+l.vetArmario[5].vetPrateleira[5]
+
+
+
+
+
+

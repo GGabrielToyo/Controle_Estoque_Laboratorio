@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1646243014 source:c:\users\gabriel alves\documents\projetos c\e.d 1 2021.2\controle_estoque\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<string.h>
+	"Entidade.h"
+
+1646242037 source:c:\users\gabriel alves\documents\projetos c\e.d 1 2021.2\controle_estoque\entidade.c
+	"Entidade.h"
+	<stdio.h>
+	<string.h>
+	<locale.h>
+
+1646166803 c:\users\gabriel alves\documents\projetos c\e.d 1 2021.2\controle_estoque\entidade.h
+
